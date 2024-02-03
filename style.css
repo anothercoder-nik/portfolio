@@ -89,7 +89,8 @@ section .title::after{
     background-color: rgb(53, 52, 52);
 }
 .navbar.sticky{
-    padding: 15px 0;
+    padding: 10spx 0;
+    height: 10px;
     background: crimson;
 }
 .navbar .max-width{
@@ -225,7 +226,7 @@ section .title::after{
 .about .about-content .left img{
     height: 400px;
     width: 400px;
-    object-fit: cover;
+    object-fit:cover;
     border-radius: 6px;
 }
 .about .about-content .right{
@@ -368,16 +369,16 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
     width: 80%;
 }
+.skills-content .right .js::before{
+    width: 40%;
+}
 .skills-content .right .php::before{
-    width: 50%;
+    width: 20%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 60%;
 }
 
 /* teams section styling */
